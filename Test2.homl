@@ -7,6 +7,6 @@
 </head>
 <body>
 <a-scene>
-<a-entity geometry='primitive: cone; radiusBottom: 1; radiusTop: 0.1; height: 2;' link='href: /Test.homl; title: My Homepage; target: _blank;'></a-entity>
+<a-entity geometry='primitive: cone; radiusBottom: 1; radiusTop: 0.1; height: 2;' link='href: https://oho-sugu.github.io/ovtestpages/Test.homl; title: My Homepage; target: _blank;'></a-entity>
 </a-scene>
 </body>
