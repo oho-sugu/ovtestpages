@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>Orthoverse Animation Test</title>
+<meta name='description' content='Orthoverse Animation Test'>
+</head>
+<body>
+<a-scene>
+<a-box  position='-0.3 0 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: linear;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+
+<a-box  position='  0 0 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinsine;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='0.3 0 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeincubic;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='0.6 0 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinquint;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='0.9 0 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeincirc;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='1.2 0 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinelastic;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='1.5 0 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinquad;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='1.8 0 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinquart;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='2.1 0 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinexpo;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='2.4 0 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinback;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='2.7 0 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinbounce;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+
+<a-box  position='  0 1 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeoutsine;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='0.3 1 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeoutcubic;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='0.6 1 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeoutquint;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='0.9 1 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeoutcirc;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='1.2 1 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeoutelastic;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='1.5 1 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeoutquad;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='1.8 1 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeoutquart;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='2.1 1 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeoutexpo;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='2.4 1 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeoutback;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='2.7 1 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeoutbounce;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+
+<a-box  position='  0 2 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinoutsine;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='0.3 2 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinoutcubic;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='0.6 2 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinoutquint;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='0.9 2 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinoutcirc;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='1.2 2 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinoutelastic;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='1.5 2 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinoutquad;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='1.8 2 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinoutquart;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='2.1 2 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinoutexpo;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='2.4 2 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinoutback;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+<a-box  position='2.7 2 0' animation='property: object3D.position.z; to: 2; dur: 3000; loop: true; easing: easeinoutbounce;' color='white' depth='0.2' height='0.2' width='0.2'></a-box>
+
+</a-scene>
+</body>

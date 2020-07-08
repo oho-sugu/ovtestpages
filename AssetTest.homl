@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>Orthoverse Asset Test</title>
+<meta name='description' content='Orthoverse Animation Test'>
+</head>
+<body>
+<a-scene>
+<a-assets>
+<img id="test" src="https://3.bp.blogspot.com/-Qgaed374Dcs/VtlMwoqu74I/AAAAAAAA4VU/JNzq8TSeQ-4/s800/ar_kakuchou_genjitsu.png">
+</a-assets>
+<a-entity geometry="primitive: plane" material="src: #test" rotation="0 180 0"></a-entity>
+</a-scene>
+</body>
