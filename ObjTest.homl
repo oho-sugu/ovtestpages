@@ -8,7 +8,7 @@
 <body>
 <a-scene>
 <a-assets>
-<a-asset-item id="mikemo" src="/mikemo.obj">
+<a-asset-item id="mikemo" src="https://oho-sugu.github.io/ovtestpages/mikemo.obj">
 </a-assets>
 <a-entity obj-model="obj: #mikemo"></a-entity>
 </a-scene>
