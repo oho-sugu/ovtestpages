@@ -8,7 +8,6 @@
 <body bounds="center: 0.5 0.5 0; size: 1 1 0.05;">
 <a-scene>
 
-<a-box color='white' depth='0.05' height='1' width='1' position='0.5 0.5 0'>
 <a-entity text="value: Hello World!;"></a-entity>
 <a-entity text="value: あいうえお　漢字;"></a-entity>
 
