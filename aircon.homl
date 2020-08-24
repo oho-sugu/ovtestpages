@@ -12,7 +12,7 @@
 <a-entity position='-0.5 0 0' rotation='0 -90 0' color='blue' geometry='primitive: cylinder; height: 0.1; radius: 0.5; segmentsRadial: 3; segmentsHeight: 1;' link='href: https://oho-sugu.github.io/ovtestpages/aircon.homl; target: _self;'></a-entity>
 </a-entity>
 
-<a-entity position='0 0 -1.8' scale='3 3 3' rotation='0 90 0'>
+<a-entity position='0 0 -1.9' scale='3 3 3' rotation='0 90 0'>
 <a-box color='white' position='0 0.2 0' rotation='0 0 0' width='0.2' height='0.03' depth='0.01'></a-box>
 <a-box color='white' position='0 0 0' rotation='0 0 0' width='0.2' height='0.03' depth='0.01'></a-box>
 <a-box color='white' position='0 -0.2 0' rotation='0 0 0' width='0.2' height='0.03' depth='0.01'></a-box>
