@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>IoT AirConditioner mock</title>
+<meta name='description' content='IoT AirConditioner mock'>
+</head>
+<body>
+<a-scene scale="0.1 0.1 0.1">
+<a-entity rotation='0 0 90'>
+<a-entity position='0.5 0 0' rotation='0 90 0' color='red'  geometry='primitive: cylinder; height: 0.1; radius: 0.5; segmentsRadial: 3; segmentsHeight: 1;' link='href: https://oho-sugu.github.io/ovtestpages/aircon27.homl; target: _self;'></a-entity>
+<a-entity position='-0.5 0 0' rotation='0 -90 0' color='blue' geometry='primitive: cylinder; height: 0.1; radius: 0.5; segmentsRadial: 3; segmentsHeight: 1;' link='href: https://oho-sugu.github.io/ovtestpages/aircon26.homl; target: _self;'></a-entity>
+</a-entity>
+
+<a-entity position='0 0 -1.9' scale='3 3 3' rotation='0 90 0'>
+<a-box color='white' position='0 0.2 0' rotation='0 0 0' width='0.2' height='0.03' depth='0.01'></a-box>
+<a-box color='white' position='0 0 0' rotation='0 0 0' width='0.2' height='0.03' depth='0.01'></a-box>
+<a-box color='white' position='0 -0.2 0' rotation='0 0 0' width='0.2' height='0.03' depth='0.01'></a-box>
+<a-box color='white' position='-0.11 0.1 0' rotation='0 0 90' width='0.15' height='0.03' depth='0.01'></a-box>
+<a-box color='white' position='0.11 -0.1 0' rotation='0 0 90' width='0.15' height='0.03' depth='0.01'></a-box>
+</a-entity>
+<a-entity position='0 0 -1' scale='3 3 3' rotation='0 90 0'>
+<a-box color='white' position='0 0.2 0' rotation='0 0 0' width='0.2' height='0.03' depth='0.01'></a-box>
+<a-box color='white' position='0 0 0' rotation='0 0 0' width='0.2' height='0.03' depth='0.01'></a-box>
+<a-box color='white' position='0 -0.2 0' rotation='0 0 0' width='0.2' height='0.03' depth='0.01'></a-box>
+<a-box color='white' position='0.11 0.1 0' rotation='0 0 90' width='0.15' height='0.03' depth='0.01'></a-box>
+<a-box color='white' position='0.11 -0.1 0' rotation='0 0 90' width='0.15' height='0.03' depth='0.01'></a-box>
+<a-box color='white' position='-0.11 -0.1 0' rotation='0 0 90' width='0.15' height='0.03' depth='0.01'></a-box>
+</a-entity>
+
+</a-scene>
+</body>
