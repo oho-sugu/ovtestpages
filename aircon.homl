@@ -8,8 +8,8 @@
 <body>
 <a-scene scale="0.1 0.1 0.1">
 <a-entity rotation='0 0 90'>
-<a-entity position='0.5 0 0' color='red' geometry='primitive: cylinder; height: 0.1; radius: 0.5; segmentsRadial: 3; segmentsHeight: 1;' link='href: https://oho-sugu.github.io/ovtestpages/aircon.homl; target: _self;'></a-entity>
-<a-entity position='-0.5 0 0' rotation='0 180 0' color='blue' geometry='primitive: cylinder; height: 0.1; radius: 0.5; segmentsRadial: 3; segmentsHeight: 1;' link='href: https://oho-sugu.github.io/ovtestpages/aircon.homl; target: _self;'></a-entity>
+<a-entity position=' 0.5 0 0' rotation='0  90 0' color='red'  geometry='primitive: cylinder; height: 0.1; radius: 0.5; segmentsRadial: 3; segmentsHeight: 1;' link='href: https://oho-sugu.github.io/ovtestpages/aircon.homl; target: _self;'></a-entity>
+<a-entity position='-0.5 0 0' rotation='0 -90 0' color='blue' geometry='primitive: cylinder; height: 0.1; radius: 0.5; segmentsRadial: 3; segmentsHeight: 1;' link='href: https://oho-sugu.github.io/ovtestpages/aircon.homl; target: _self;'></a-entity>
 </a-entity>
 
 </a-scene>
