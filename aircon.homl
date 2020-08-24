@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>IoT AirConditioner mock</title>
+<meta name='description' content='IoT AirConditioner mock'>
+</head>
+<body>
+<a-scene scale="0.1 0.1 0.1">
+<a-entity rotation='0 0 90'>
+<a-entity color='red' geometry='primitive: cylinder; height: 0.1; radius: 0.5; segments-radial: 3; segments-height: 1;' link='href: https://oho-sugu.github.io/ovtestpages/aircon.homl; target: _self;'></a-entity>
+<a-entity rotation='0 180 0' color='blue' geometry='primitive: cylinder; height: 0.1; radius: 0.5; segments-radial: 3; segments-height: 1;' link='href: https://oho-sugu.github.io/ovtestpages/aircon.homl; target: _self;'></a-entity>
+</a-entity>
+
+</a-scene>
+</body>
