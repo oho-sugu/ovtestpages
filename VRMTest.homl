@@ -8,7 +8,7 @@
 <body>
 <a-scene>
 <a-assets>
-<a-asset-item id="vrm" src="https://github.com/vrm-c/UniVRM/raw/master/Tests/Models/Alicia_vrm-0.51/AliciaSolid_vrm-0.51.vrm">
+<a-asset-item id="vrm" src="https://oho-sugu.github.io/ovtestpages/homl.vrm">
 </a-assets>
 <a-entity vrm-model="obj: #vrm"></a-entity>
 </a-scene>
