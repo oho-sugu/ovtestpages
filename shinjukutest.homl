@@ -7,6 +7,6 @@
 </head>
 <body>
 <a-scene>
-<a-box color='white' depth='10' height='10' width='10' position='0 20 0'>
+<a-box color='white' depth='10' height='10' width='10' position='0 20 0' animation='property: object3D.rotation.y; to: 360; dur: 3000; loop: true; easing: linear;'>
 </a-scene>
 </body>
