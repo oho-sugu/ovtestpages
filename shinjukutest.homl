@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>Hello World</title>
+<meta name='description' content='Hello World'>
+</head>
+<body>
+<a-scene>
+<a-box color='white' depth='10' height='10' width='10' position='0 20 0'>
+</a-scene>
+</body>
